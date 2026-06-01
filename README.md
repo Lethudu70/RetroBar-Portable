@@ -100,16 +100,39 @@ This project contains multiple licensing components:
 - .NET Desktop Runtime (depending on whether you use the portable or non-portable version)
 - No installation required (portable mode)
 
-- To run the portable version, launch `RetroBar_portable.exe`.
-- To run the normal version, launch `RetroBar.exe`. In this case, you need .NET Desktop Runtime 6 or higher installed on the computer.
+### Running the application
+- To run the portable version, launch `RetroBar_portable.exe`
+- To run the standard version, launch `RetroBar.exe`
 
-The .NET Desktop Runtime is usually installed automatically if missing. If you need a specific version, you can download it here:
+The standard version requires the .NET Desktop Runtime (6 or higher) installed on the system.
 
-.NET 6: https://dotnet.microsoft.com/fr-fr/download/dotnet/6.0  
-.NET 7: https://dotnet.microsoft.com/fr-fr/download/dotnet/7.0  
-.NET 8: https://dotnet.microsoft.com/fr-fr/download/dotnet/8.0  
-.NET 9: https://dotnet.microsoft.com/fr-fr/download/dotnet/9.0  
-.NET 10: https://dotnet.microsoft.com/fr-fr/download/dotnet/10.0  
+---
+
+## .NET Runtime Downloads
+
+The .NET Desktop Runtime can be downloaded from Microsoft:
+
+.NET 6: https://dotnet.microsoft.com/en-us/download/dotnet/6.0  
+.NET 7: https://dotnet.microsoft.com/en-us/download/dotnet/7.0  
+.NET 8: https://dotnet.microsoft.com/en-us/download/dotnet/8.0  
+.NET 9: https://dotnet.microsoft.com/en-us/download/dotnet/9.0  
+.NET 10: https://dotnet.microsoft.com/en-us/download/dotnet/10.0  
+
+---
+
+## Self-Contained / Portable Runtime Concept
+
+The .NET runtime can be used in a self-contained manner, meaning all required runtime binaries are placed inside a local folder instead of being installed globally on the system.
+
+This allows the application to run in an isolated environment where all dependencies (runtime, host, shared libraries) are resolved locally.
+
+This approach is commonly used for:
+- Portable applications
+- Virtual machines
+- Windows Sandbox environments
+- Offline execution
+
+In this project, the runtime folder acts as a local self-contained runtime environment used by the launcher to execute RetroBar without requiring system-wide installation.
 
 ---
 
