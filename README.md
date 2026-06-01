@@ -9,6 +9,22 @@ RetroBar is licensed under the Apache License 2.0.
 
 ---
 
+## What is RetroBar
+
+RetroBar is a Windows taskbar replacement that recreates the classic Windows 95 / 98 / 2000 / XP style taskbar.
+
+It works by:
+- Running in the background as a system tray application
+- Replacing the modern Windows taskbar interface
+- Providing different retro styles and layouts
+- Allowing customization of appearance and behavior
+- Integrating with the Windows shell to manage open windows and system icons
+
+RetroBar does NOT modify Windows system files.  
+It operates as a user-space application that visually replaces the taskbar experience.
+
+---
+
 ## Overview
 
 This project is a **portable packaging and launcher wrapper for RetroBar**, allowing the application to be executed directly from a self-contained directory without a traditional installation process.
