@@ -1,5 +1,14 @@
 # RetroBar Portable Wrapper
 
+## Original Software Ownership
+
+RetroBar is developed by **Sam Johnson and community contributors**.  
+This project does NOT claim any ownership over RetroBar or its source code.
+
+RetroBar is licensed under the Apache License 2.0.
+
+---
+
 ## Overview
 
 This project is a **portable packaging and launcher wrapper for RetroBar**, allowing the application to be executed directly from a self-contained directory without a traditional installation process.
@@ -62,7 +71,7 @@ Licensed under the BSD 3-Clause License
 
 Copyright (c) Jan Karger, Steven Kirk and Contributors
 
-This library is included as part of RetroBar’s dependencies and remains under its original license terms. 
+This library is included as part of RetroBar’s dependencies and remains under its original license terms.
 
 Owner: https://github.com/dremin/
 
@@ -80,24 +89,27 @@ This project contains multiple licensing components:
 
 ### 3. This Wrapper / Launcher
 - Custom code created for portability
-- No restriction beyond included dependencies
+- No restrictions beyond included dependencies
 - Distributed as part of this packaging
 
 ---
 
-## Requirements and how use it
+## Requirements and how to use it
 
 - Windows 10 / 11
-- .NET Desktop Runtime (depending if you want the portable or the non-portable version )
+- .NET Desktop Runtime (depending on whether you use the portable or non-portable version)
 - No installation required (portable mode)
 
-- For run the portable one launch RetroBar_portable.exe or if you want the normal one launch only RetroBar.exe, you need to install .Net desktop 6 or above on the computeur, the .Net Desktop Runtime 6 gonna be installed automaticaly if you don't have it or want a newer version go here for get it:
+- To run the portable version, launch `RetroBar_portable.exe`.
+- To run the normal version, launch `RetroBar.exe`. In this case, you need .NET Desktop Runtime 6 or higher installed on the computer.
 
-.NET 6: https://dotnet.microsoft.com/fr-fr/download/dotnet/6.0
-.NET 7: https://dotnet.microsoft.com/fr-fr/download/dotnet/7.0
-.NET 8: https://dotnet.microsoft.com/fr-fr/download/dotnet/8.0
-.NET 9: https://dotnet.microsoft.com/fr-fr/download/dotnet/9.0
-.NET 10: https://dotnet.microsoft.com/fr-fr/download/dotnet/10.0
+The .NET Desktop Runtime is usually installed automatically if missing. If you need a specific version, you can download it here:
+
+.NET 6: https://dotnet.microsoft.com/fr-fr/download/dotnet/6.0  
+.NET 7: https://dotnet.microsoft.com/fr-fr/download/dotnet/7.0  
+.NET 8: https://dotnet.microsoft.com/fr-fr/download/dotnet/8.0  
+.NET 9: https://dotnet.microsoft.com/fr-fr/download/dotnet/9.0  
+.NET 10: https://dotnet.microsoft.com/fr-fr/download/dotnet/10.0  
 
 ---
 
@@ -134,5 +146,3 @@ This project was created for:
 
 This software is provided "AS IS", without warranty of any kind.
 Use at your own risk.
-
----
